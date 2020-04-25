@@ -30,7 +30,7 @@ twitter_username: charlesbrophy_
 github_username:  charlesbrophy
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
