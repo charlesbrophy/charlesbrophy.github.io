@@ -4,16 +4,10 @@
   <meta charset="UTF-8">
   <title>Redirecting...</title>
   <script type="text/javascript">
-    // Dynamically calculate the base repository path to handle project-level subdirectories correctly
-    var pathSegments = window.location.pathname.split('/');
-    
-    // For GitHub Project Pages (e.g., username.github.io/repo-name/), 
-    // pathSegments[1] contains the repository name.
-    var repoName = pathSegments[1]; 
-    
+ 
     // Construct the root URL. If your repository name is empty or you are using a custom domain, 
     // it defaults to the root domain.
-    var redirectUrl = window.location.origin + '/' + repoName + '/';
+    var redirectUrl = window.location.origin;
     
     // Perform the client-side redirect
     window.location.replace(redirectUrl);
